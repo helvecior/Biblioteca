@@ -1,8 +1,15 @@
-#!/bin/bash 
+def menu():
+  nome = input("Olá usuário! Qual o seu nome ? ")
+  print(f"Como você está, {nome}?\nO que Helvocê deseja fazer ?")
+  print(f"As opções são:\nSair\nSumir daqui\nFicar:)")
+  resposta = input(f"\nQual você escolhe {nome} ?")
+  
+  if (resposta == "Sair"):
+    print("Tchau!")
+  elif (resposta == "Sumir daqui"):
+    print("OK, SOME ENTÃO MERMÃO 8========D")
+  else:
+    print("Ok...")
 
-num1=$1
-num2=$2
 
-echo "A soma de ${num1} e ${num2} é: $((num1 + num2))"
-
-echo "A subtração de ${num1} e ${num 2} é: $((num1 +num2))
+menu()
