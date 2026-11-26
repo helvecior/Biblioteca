@@ -14,7 +14,7 @@ Tema escuro personalizado, composto a partir das preferências visuais de Helvec
 ## Composição visual
 
 | Elemento | Escolha |
-|---|---|
+| --- | --- |
 | Interface e restante da sintaxe | Base da variante 7 |
 | Definições de funções | Variante 7: verde-água `#5FB4B4` |
 | Chamadas de funções | Variante 8: azul `#6699CC`; funções de biblioteca mantêm itálico |
@@ -43,7 +43,6 @@ No VS Code, abra Extensões → … → Instalar do VSIX… e escolha `tema-de-h
 ## Créditos e licença
 
 Os créditos dos componentes aproveitados estão em `CREDITOS.md`. A licença de redistribuição das bases de terceiros continua pendente de confirmação; consulte `LICENCIAMENTO.md`. O novo nome não altera a autoria dos componentes de origem.
-
 
 ## Ícone da edição 1.0.1
 
