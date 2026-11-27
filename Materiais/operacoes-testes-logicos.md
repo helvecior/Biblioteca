@@ -2,47 +2,50 @@
 
 ## Operadores de Comparações Numéricas
 
-``eq (=) Equal``
+``` bash
+eq (=) Equal
 
-``ne (=/=) Not Equal ou Different``
+ne (=/=) Not Equal ou Different
 
-``gt (>) Greater than``
+gt (>) Greater than
 
-``lt (<) Less than``
+lt (<) Less than
 
-``ge (>=) Greater than or equal``
+ge (>=) Greater than or equal
 
-``le (<=) Less than or equal``
+le (<=) Less than or equal
+```
 
 ## Operadores de Comparações de Strings
 
-``-z verifica se é vazio``
+``` bash
+-z verifica se é vazio
 
-``-n verifica se não é vazio``
+-n verifica se não é vazio
 
-``= igualdade``
+= igualdade
 
-``! diferença``
+! diferença
+```
 
 ## Operadores de Comparações de Arquivos
 
-``-f file``
+``` bash
+-f file
 
-``-d dir``
+-d dir
 
-``-r legível``
+-r legível
 
-``-w editável``
+-w editável
 
-``-x executável``
+-x executável
 
-``-nt newer than (maior que)``
+-nt newer than (maior que)
 
-``-ot older than (menor que)``
+-ot older than (menor que)
+```
 
 ## Fontes consultadas
 
-```bash
-https://diegomariano.com/shell-script-um-guia-basico/
-
-```
+<https://diegomariano.com/shell-script-um-guia-basico/>
