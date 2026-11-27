@@ -1,0 +1,7 @@
+
+def peso_total():
+  peso_original = int(input("Qual o seu peso atual? "))
+  peso_adicional = int(input("Qual a quantidade em Kg que você comeu recentemente? "))
+  print(f"O seu peso agora é: {peso_original + peso_adicional}")
+
+peso_total()
