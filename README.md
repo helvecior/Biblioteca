@@ -2,6 +2,8 @@
 
 Repositório pessoal para reunir materiais de estudo, guias, experimentos e recursos usados no Visual Studio Code. As pastas abaixo organizam o conteúdo por tipo e assunto.
 
+<a id="sumario"></a>
+
 ## Sumário
 
 - [Arquivos gerados pelo ChatGPT](#arquivos-gerados-pelo-chatgpt)
@@ -31,6 +33,8 @@ Pequenos projetos e testes de programação. Atualmente, a pasta contém uma cal
 [Abrir a pasta **Experiments**](./Experiments/)
 
 - [calculadora.py](./Experiments/calculadora.py)
+
+<a id="extensoes-do-visual-studio-code"></a>
 
 ### Extensões do Visual Studio Code
 
