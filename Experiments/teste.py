@@ -38,7 +38,6 @@ def triangle_choice():
 
   print(f"The area of a the triangle with base length={base} and heigth={height} is equal to {area_of_triangle(base,height)}")
 
-
 def rectangle_choice():
   base = int(input("Qual o valor da base do retângulo que deseja calcular a área? "))
   height = int(input("Qual o valor da altura do retângulo que deseja calcular a área? "))
@@ -51,15 +50,18 @@ def rectangle_choice():
 #region	FUNCTIONS FOR MENU 
 
 def menu_selection():
-  options = ["1. Circle", "2. Quadrado", "3. Triângulo", "4. Retângulo"]
 
   print("\nSeja bem-vindo à calculadora de áreas de formatos geométricos!\n")
+
+  options = ["1. Círculo", "2. Quadrado", "3. Triângulo", "4. Retângulo"]
 
   choice = int(input(
       "Escolha o formato geométrico que deseja calcular a área:\n"
       + "\n".join(options)
-      + "\n Digite o número correspondente à sua escolha: "
+      + "\n\nDigite o número correspondente à sua escolha: "
       ))
+
+  #* conditional statements to redirect the user to the correct function based on their choice 
 
   if choice == 1: 
     circle_choice()
@@ -73,10 +75,10 @@ def menu_selection():
   elif choice == 4: 
     rectangle_choice()
 
-  return choice
-
 #endregion #! end
 
 
 def main():
   menu_selection()
+
+main()
