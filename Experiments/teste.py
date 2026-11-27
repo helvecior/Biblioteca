@@ -30,6 +30,8 @@ def complex_format_answer(measure_1, measure_2, shape):
   values_colected = int(input(f"Qual o valor do {measure_1} e da {measure_2} do {shape} que você deseja calcular a área? "))
   return values_colected
 
+
+#! focar nesse aqui debaixo
 def simple_format_answer(measure_1, shape):
     print(f"A área do {shape} com {measure_1}=si{values_colected} é igual a {simple_format_answer(measure_1, shape)}")
 
