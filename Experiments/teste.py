@@ -75,16 +75,18 @@ def simple_format_answer(measure_simple, shape):
     print(f"A área do {shape} é: {area:.2f}")
     print(values_colected + values_colected)
 
-def area_of_triangle(base, height):
-    result = (base * height) / 2 
-    return result
-
-def area_of_rectangle(base, height):
-    result = base * height
-    return result
 def complex_format_answer(measure_1, measure_2, shape):
   values_colected = int(input(f"Qual o valor do {measure_1} e da {measure_2} do {shape} que você deseja calcular a área? "))
   return values_colected
+
+  if shape == "triangle":
+    area = (measure_1 * measure_2) / 2 
+    return area
+
+  if shape == "rectangle":
+    area = base * height
+    return area
+
 #endregion #! end
 
 
