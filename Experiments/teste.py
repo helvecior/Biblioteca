@@ -18,7 +18,7 @@ def shape_selection_menu():
   if choice == 1: 
     shape = "círculo"
     measure_simple = "raio"
-    simple_format_answer()
+    simple_format_answer(measure_simple, shape)
 
   elif choice == 2: 
     shape = "quadrado"
@@ -36,8 +36,6 @@ def shape_selection_menu():
     measure_1 = "base"
     measure_2 = "altura"
     complex_format_answer(measure_1, measure_2, shape)
-
-
 
 #endregion #! end
 
@@ -62,7 +60,7 @@ def area_of_rectangle(base, height):
 
 #endregion #! end
 
-#region	FUNCTIONS PRESENTING ANSWERS IN ACCORDANCE WITH THE USER'S CHOICE
+#region	FUNCTIONS THA CALCULATE AND PRESENT THE AREA OF SELECTED GEOMETRIC SHAPES
 
 def simple_format_answer(measure_simple, shape):
   values_colected = int(input(f"Qual o valor do {measure_simple} do {shape} que você deseja calcular a área? "))
@@ -71,16 +69,9 @@ def simple_format_answer(measure_simple, shape):
 def complex_format_answer(measure_1, measure_2, shape):
   values_colected = int(input(f"Qual o valor do {measure_1} e da {measure_2} do {shape} que você deseja calcular a área? "))
   return values_colected
-
-
-#! focar nesse aqui debaixo
-def simple_format_answer(measure_1, shape):
-    print(f"A área do {shape} com {measure_1}={values_colected} é igual a {simple_format_answer(measure_1, shape)}")
-
-def complex_format_answer(measure_1, measure_2, shape):
-  print(f"A área do triângulo com base={base} e altura={height} é igual a {area_of_triangle(base,height)}")
-
 #endregion #! end
+
+
 
 def main():
   shape_selection_menu()
