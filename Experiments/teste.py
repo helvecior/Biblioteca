@@ -64,8 +64,24 @@ def area_of_rectangle(base, height):
 
 def simple_format_answer(measure_simple, shape):
   values_colected = int(input(f"Qual o valor do {measure_simple} do {shape} que você deseja calcular a área? "))
-  return values_colected
+  
+  if shape == "círculo":
+    area = values_colected ** 2 * 3.14
+    print(f"A área do {shape} é: {area:.2f}")
+    print(values_colected + values_colected)
 
+  if shape == "quadrado":
+    area = values_colected ** 2
+    print(f"A área do {shape} é: {area:.2f}")
+    print(values_colected + values_colected)
+
+def area_of_triangle(base, height):
+    result = (base * height) / 2 
+    return result
+
+def area_of_rectangle(base, height):
+    result = base * height
+    return result
 def complex_format_answer(measure_1, measure_2, shape):
   values_colected = int(input(f"Qual o valor do {measure_1} e da {measure_2} do {shape} que você deseja calcular a área? "))
   return values_colected
